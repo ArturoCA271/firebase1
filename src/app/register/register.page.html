@@ -1,0 +1,42 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>register</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+    <ion-list-header>
+      <!--<ion-label> Correo: {{formulario.valid}}</ion-label>-->
+    </ion-list-header>
+
+
+    <!--Campo email-->
+    <ion-item>
+      <ion-label position = "floating">Email: </ion-label>
+
+      <ion-input type ="email" 
+      [(ngModel)] = "user.email"
+      pattern="^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$" 
+      required></ion-input>
+    </ion-item>
+
+      
+
+    <!--Campo pass-->
+    <ion-item>
+      <ion-label position = "floating">Password: </ion-label>
+      <ion-input type="password"
+      [(ngModel)] = "user.password"></ion-input>
+    </ion-item>
+
+
+
+    <ion-button type = "large" color = "primary" routerLink="/login">Inicio</ion-button>
+    <ion-button type = "large" color = "primary" (click)="onRegister()">Registrar</ion-button>
+
+
+
+
+  </ion-list>
+</ion-content>
