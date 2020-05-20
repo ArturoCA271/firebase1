@@ -1,0 +1,8 @@
+{
+  "name": "Autent",
+  "integrations": {
+    "capacitor": {},
+    "cordova": {}
+  },
+  "type": "angular"
+}
