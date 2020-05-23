@@ -1,0 +1,28 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Ventana 1
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  
+  <ion-button expand= "full" (click) = "scanerCode()" color="secondary">
+    <ion-icon name="scannerQR"></ion-icon>
+    Scanner QR Code
+  </ion-button>
+
+  <ion-card *ngIf= "scannerCode">
+    <ion-card-conten>
+      Result from Scan: {{ scannerCode }}
+    </ion-card-conten>
+  </ion-card>
+
+  <ion-button expand= "full" (click) = "downloadQR()" color="secondary">
+    <ion-icon name="scannerQR"></ion-icon>
+    Download QR Code
+  </ion-button>
+
+
+</ion-content>

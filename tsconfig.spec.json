@@ -9,11 +9,18 @@
   },
   "files": [
     "src/test.ts",
+<<<<<<< HEAD
     "src/zone-flags.ts",
+=======
+>>>>>>> versionqr
     "src/polyfills.ts"
   ],
   "include": [
     "src/**/*.spec.ts",
     "src/**/*.d.ts"
   ]
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> versionqr

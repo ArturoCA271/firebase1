@@ -5,6 +5,7 @@
 </ion-header>
 
 <ion-content padding>
+<<<<<<< HEAD
   <ion-list>
     <ion-list-header>
       <!--<ion-label> Correo: {{formulario.valid}}</ion-label>-->
@@ -16,11 +17,20 @@
       <ion-label position = "floating">Email: </ion-label>
 
       <ion-input type ="email" 
+=======
+  
+  <ion-list>
+    <ion-item>
+      <ion-label position = "floating">Usuario</ion-label>
+
+      <ion-input type = "email"
+>>>>>>> versionqr
       [(ngModel)] = "user.email"
       pattern="^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$" 
       required></ion-input>
     </ion-item>
 
+<<<<<<< HEAD
       
 
     <!--Campo pass-->
@@ -36,6 +46,18 @@
     <ion-button type = "large" color = "primary" (click)="onLogin()">Ingresar</ion-button>
     <ion-button type = "large" color = "primary" routerLink="/register">Nuevo</ion-button>
 
+=======
+    <ion-item>
+      <ion-label position = "floating">Contraseña</ion-label>
+      <ion-input type="password" 
+      [(ngModel)] = "user.password"
+      required></ion-input>
+    </ion-item>
+
+    <ion-button type = "large" color = "primary" (click)="ngOnlogin()">Inicio</ion-button>
+    <ion-button type = "large" color = "primary" routerLink="/register">Registrar</ion-button>
+    
+>>>>>>> versionqr
 
 
 

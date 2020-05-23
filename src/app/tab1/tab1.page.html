@@ -1,0 +1,25 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Inicio
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+ 
+  <ion-list>
+    <ion-item>
+      <ion-label position = "floating">Contraseña actual</ion-label>
+      <ion-input type = "password"required></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position = "floating">Nueva contraseña</ion-label>
+    <ion-input type = "password"required></ion-input>
+  </ion-item>
+
+    <ion-button type = "large" color = "primary" (click)="ActualizaPass()">Cambiar contraseña</ion-button>
+  </ion-list>    
+
+</ion-content>

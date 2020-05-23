@@ -1,7 +1,14 @@
 {
+<<<<<<< HEAD
   "name": "inicio",
   "integrations": {
     "capacitor": {}
+=======
+  "name": "Autent",
+  "integrations": {
+    "capacitor": {},
+    "cordova": {}
+>>>>>>> versionqr
   },
   "type": "angular"
 }

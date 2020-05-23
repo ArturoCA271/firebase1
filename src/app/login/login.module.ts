@@ -1,6 +1,10 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+<<<<<<< HEAD
 import { FormsModule } from '@angular/forms';
+=======
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+>>>>>>> versionqr
 
 import { IonicModule } from '@ionic/angular';
 
@@ -13,7 +17,12 @@ import { LoginPage } from './login.page';
     CommonModule,
     FormsModule,
     IonicModule,
+<<<<<<< HEAD
     LoginPageRoutingModule
+=======
+    LoginPageRoutingModule,
+    ReactiveFormsModule
+>>>>>>> versionqr
   ],
   declarations: [LoginPage]
 })

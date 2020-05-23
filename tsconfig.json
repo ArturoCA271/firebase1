@@ -1,12 +1,17 @@
 {
   "compileOnSave": false,
+<<<<<<< HEAD
 
   "compilerOptions": {
     "skipLibCheck": true,
+=======
+  "compilerOptions": {
+>>>>>>> versionqr
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "sourceMap": true,
     "declaration": false,
+<<<<<<< HEAD
     "module": "esnext",
     "moduleResolution": "node",
     "emitDecoratorMetadata": true,
@@ -16,6 +21,14 @@
     "typeRoots": [
       "node_modules/@types"
     ],
+=======
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "target": "es2015",
+>>>>>>> versionqr
     "lib": [
       "es2018",
       "dom"
@@ -25,4 +38,8 @@
     "fullTemplateTypeCheck": true,
     "strictInjectionParameters": true
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> versionqr
